@@ -27,9 +27,9 @@ Predicting future trends is a powerful tool for decision-making. Regression anal
 
 1. **Understanding Missing Data**: Gain insights into the types and impact of missing data in your datasets.
 
-2. **Interpolation Techniques**: Learn various interpolation methods, including linear, polynomial, and more, to fill in missing values effectively.
+2. **Interpolation Techniques**: Learn various interpolation methods.
 
-3. **Regression Models**: Explore regression models such as linear regression and predictive regression for future forecasting.
+3. **Regression Models**: Explore regression models such as linear regression and auto regression for future forecasting.
 
 4. **Practical Application**: Apply these techniques to real-world datasets, ensuring you're well-equipped for data analysis challenges.
 
