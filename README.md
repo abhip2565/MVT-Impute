@@ -10,7 +10,8 @@ This repository contains a Jupyter Notebook that demonstrates techniques for han
 - [Data Preprocessing](#data-preprocessing)
 - [Imputation Techniques](#imputation-techniques)
 - [Results and Findings](#results-and-findings)
-[!gif](https://gifyu.com/image/ScJsi)
+![M-Bagging demo](https://github.com/abhip2565/MVT-Impute/assets/74866247/e5dc4572-c26c-431f-ac22-48c21cc64756)
+
 ## Introduction
 
 Welcome to the Data Analysis Notebook dedicated to enhancing your data handling and prediction capabilities. This notebook is your guide to mastering advanced techniques for addressing missing values and leveraging the power of regression to predict future trends.
