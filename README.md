@@ -9,7 +9,9 @@ This repository contains a Jupyter Notebook that demonstrates techniques for han
 - [Data Source](#data-source)
 - [Data Preprocessing](#data-preprocessing)
 - [Imputation Techniques](#imputation-techniques)
+- Algorithm Demo[#algorithm-demo]
 - [Results and Findings](#results-and-findings)
+- [Usage](#usage)
 
 
 ## Introduction
@@ -72,15 +74,18 @@ Many interpolation methods work efficiently with numerical arrays. We'll transfo
 
 Interpolation allows us to estimate missing values based on the surrounding data points. We'll explore various interpolation methods, including:
 
-- **Newton's Forward Interpolation**:  Forward differences and a polynomial estimate values in evenly spaced data. Useful for data completion with equal intervals,                                        it constructs a polynomial passing through points and predicts values within the range.
-- **Newton's Backward Interpolation**: Backward differences and a polynomial predict values in equally spaced data. Like forward interpolation, it constructs a                                            polynomial that passes through points, aiding data completion and estimation within the range.
-- **Lagrange's Interpolation**:        Lagrange Interpolation is a polynomial interpolation method that estimates values within a range using a single polynomial   
-                                       that passes through given data points. It simplifies the interpolation process by constructing individual polynomials for                                           each data point and combining them to predict values accurately.
+- **Newton's Forward Interpolation**:  Forward differences and a polynomial estimate values in evenly spaced data. Useful for data completion with equal                                                 intervals,it constructs a polynomial passing through points and predicts values within the range.
+- **Newton's Backward Interpolation**: Backward differences and a polynomial predict values in equally spaced data. Like forward interpolation, it constructs a                                          polynomial that passes through points, aiding data completion and estimation within the range.
+- **Lagrange's Interpolation**:        Lagrange Interpolation is a polynomial interpolation method that estimates values within a range using a single polynomial                                        that passes through given data points. It simplifies the interpolation process by constructing individual polynomials for                                         each data point and combining them to predict values accurately.
+
+## Algorithm Demo
+
+Demo!!
 
 ## Results and Findings
 
-Results have been taken with ample variations which includes:
-- ** Entire time point(s) missing.
+**Results** have been taken with ample variations which includes:
+-  Entire time point(s) missing.
 - percentage of data from time point(s) missing.
 - Scattered portion of data missing.
 - Future time point prediction.
