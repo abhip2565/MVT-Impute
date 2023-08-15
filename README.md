@@ -10,7 +10,7 @@ This repository contains a Jupyter Notebook that demonstrates techniques for han
 - [Data Preprocessing](#data-preprocessing)
 - [Imputation Techniques](#imputation-techniques)
 - [Results and Findings](#results-and-findings)
-
+[!gif](https://gifyu.com/image/ScJsi)
 ## Introduction
 
 Welcome to the Data Analysis Notebook dedicated to enhancing your data handling and prediction capabilities. This notebook is your guide to mastering advanced techniques for addressing missing values and leveraging the power of regression to predict future trends.
