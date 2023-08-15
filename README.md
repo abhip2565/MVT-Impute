@@ -9,7 +9,7 @@ This repository contains a Jupyter Notebook that demonstrates techniques for han
 - [Data Source](#data-source)
 - [Data Preprocessing](#data-preprocessing)
 - [Imputation Techniques](#imputation-techniques)
-- Algorithm Demo[#algorithm-demo]
+- [Algorithm Demo](#algorithm-demo)
 - [Results and Findings](#results-and-findings)
 - [Usage](#usage)
 
