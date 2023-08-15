@@ -1,6 +1,6 @@
 # MVT-Impute Jupyter Notebook
 
-This repository contains a Jupyter Notebook that demonstrates techniques for handling missing values in data.
+This repository contains a Jupyter Notebook that demonstrates techniques for handling missing values in data specifically for **time series data**.
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ This repository contains a Jupyter Notebook that demonstrates techniques for han
 - [Data Preprocessing](#data-preprocessing)
 - [Imputation Techniques](#imputation-techniques)
 - [Results and Findings](#results-and-findings)
-![M-Bagging demo](https://github.com/abhip2565/MVT-Impute/assets/74866247/e5dc4572-c26c-431f-ac22-48c21cc64756)
+
 
 ## Introduction
 
@@ -49,35 +49,50 @@ Feel free to explore, experiment, and apply these techniques to your own dataset
 
 ## Data Source
 
-The model has been tested againt various data and it has shown promising results. The name of the datasets have been mentioned in the notebook and in my conference [paper](https://www.google.com)
+The model has been tested againt various **time-series** data and it has shown promising results. The name of the datasets have been mentioned in the notebook and in my conference [paper](https://www.google.com)
 
 ## Data Preprocessing
 
-Explain the data preprocessing steps taken before performing missing value imputation.
+
+In this section, we'll cover the essential data preprocessing steps required before applying interpolation techniques. We'll walk through the process of cleaning the dataset, introducing random missing values, converting the data to an array format, and preparing it for interpolation.
+
+### Cleaning the Dataset
+
+Before we delve into interpolation, it's crucial to ensure that our dataset is properly cleaned. Data cleaning involves tasks such as handling outliers, addressing duplicate records, and dealing with any data quality issues that might impact our analysis.
+
+### Generating Random Missing Values
+
+To simulate real-world scenarios, we'll intentionally introduce random missing values into our dataset. These missing values will serve as the target for the subsequent interpolation techniques.
+
+### Converting to Array Format
+
+Many interpolation methods work efficiently with numerical arrays. We'll transform our dataset into an array format that is suitable for applying interpolation techniques.
 
 ## Imputation Techniques
 
-Detail the techniques used to handle missing values, including code snippets and explanations.
+Interpolation allows us to estimate missing values based on the surrounding data points. We'll explore various interpolation methods, including:
 
-### Imputation Method 1
-
-Provide code and explanations for the first imputation technique used.
-
-### Imputation Method 2
-
-Provide code and explanations for the second imputation technique used.
+- **Newton's Forward Interpolation**:  Forward differences and a polynomial estimate values in evenly spaced data. Useful for data completion with equal intervals,                                        it constructs a polynomial passing through points and predicts values within the range.
+- **Newton's Backward Interpolation**: Backward differences and a polynomial predict values in equally spaced data. Like forward interpolation, it constructs a                                            polynomial that passes through points, aiding data completion and estimation within the range.
+- **Lagrange's Interpolation**:        Lagrange Interpolation is a polynomial interpolation method that estimates values within a range using a single polynomial   
+                                       that passes through given data points. It simplifies the interpolation process by constructing individual polynomials for                                           each data point and combining them to predict values accurately.
 
 ## Results and Findings
 
-Summarize the results of the missing value imputation process and any notable findings.
+Results have been taken with ample variations which includes:
+- ** Entire time point(s) missing.
+- percentage of data from time point(s) missing.
+- Scattered portion of data missing.
+- Future time point prediction.
 
+The results, u can find in the ![paper](https://google.co.in), whuch i recommend do give a read.
 ## Usage
 
-Provide instructions on how to use the notebook and apply the techniques to other datasets.
+The secret of this algo lies in its simplicity. Often we dwell into complex algos to predict missing values involving time-series. This algo is a good fit to save somme of your time!!
+Get your hands dirty with this method in real world datasets, do let me know how well the algo is performing!!
 
-## Acknowledgments
-
-Give credit to any resources, libraries, or references used in the notebook.
+Regards!
+Thank You!!
 
 ---
 
